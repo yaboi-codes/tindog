@@ -1,0 +1,164 @@
+/*                 title             */
+#title {
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+.rotate {
+  transform-origin: center;
+  transform: rotate(30deg);
+}
+
+.iphone {
+  position: relative;
+  left: 30%;
+  width: 60%;
+}
+
+/*                 navbar             */
+.navbar {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/*                 features             */
+
+.featureP {
+  font-family: 'Montserrat-bold', sans-serif;
+  color: #8f8f8f;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+
+/*                 testimonial             */
+#testimonials {
+  text-align: center;
+  position: relative;
+}
+
+.dog-testimonial {
+  border-radius: 100%;
+  width: 15%;
+}
+
+.heading-testimonial {
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 4rem;
+  font-size: 4rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+/*                 press             */
+#press {
+  text-align: center;
+}
+
+.press-pics {
+  width: 13%;
+  margin: 5px 20px 20px;
+}
+
+/*                 pricing             */
+#pricing {
+  padding: 3rem;
+  text-align: center;
+}
+
+.pricing-colum {
+  padding: 4% 2%;
+}
+
+/*                 cta             */
+#cta {
+}
+
+.cta-header {
+  text-align: center;
+  padding: 3rem 0 0 0;
+}
+
+.cta-button {
+  margin: 3rem 2rem;
+}
+
+.cta-button-container {
+  text-align: center;
+}
+
+/*                 footer             */
+
+#footer {
+  text-align: center;
+}
+
+/*                 general             */
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+i {
+  font-size: 200%;
+  margin: 8px;
+}
+
+em {
+  font-family: 'Montserrat-bold', sans-serif;
+  margin-left: 10PX;
+}
+
+i:hover {
+  color: #C0C0C0;
+}
+
+.myContainer1 {
+  margin: 30px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.icon {
+  padding: 0.5rem;
+}
+
+.button-icon {
+  font-size: inherit;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+@media (max-width: 1028px){
+
+#title {
+  text-align: center;
+}
+
+  .iphone {
+    position: static;
+    transform: rotate(-0.084turn);
+  }
+}
